@@ -1,0 +1,24 @@
+@import url(./header__logo.css);
+@import url(./header__languages.css);
+@import url(./header__lang-button.css);
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 28px 48px 0;
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding: 28px 24px 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		padding: 15px 15px 0;
+	}
+}

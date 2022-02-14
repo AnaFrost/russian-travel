@@ -4,6 +4,9 @@
 	color: white;
 	background-color: transparent;
 	cursor: pointer;
-	width: 30px;
-	height: 24px;
+	margin: 0 9px;
+}
+
+.header__lang-button_active {
+	border-bottom: 1px solid #fff;
 }

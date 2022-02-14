@@ -1,10 +1,9 @@
 .header__lang-button {
 	padding: 0;
 	border: none;
-	font: inherit;
 	color: white;
 	background-color: transparent;
 	cursor: pointer;
 	width: 30px;
-	height: 28px;
+	height: 24px;
 }

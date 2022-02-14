@@ -14,12 +14,6 @@
 	}
 }
 
-@media (max-width: 768px) {
-	.lead__subtitle {
-		padding-bottom: 56px;
-	}
-}
-
 @media (max-width: 720px) {
 	.lead__subtitle {
 		width: 288px;

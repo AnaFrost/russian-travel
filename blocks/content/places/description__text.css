@@ -1,0 +1,17 @@
+.description__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	color: #fff;
+}
+
+.description__text:not(:last-child) {
+	padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+	.description__text {
+		font-size: 16px;
+		line-height: 26px;
+	}
+}

@@ -1,0 +1,5 @@
+@import url(./description__text.css);
+
+.card__description {
+	grid-area: text;
+}

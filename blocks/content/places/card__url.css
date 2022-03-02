@@ -1,0 +1,7 @@
+@import url(./url__title.css);
+@import url(./url__link.css);
+
+.card__url {
+	grid-area: url;
+	align-self: end;
+}

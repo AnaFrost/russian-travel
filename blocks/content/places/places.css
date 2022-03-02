@@ -1,0 +1,14 @@
+@import url(./places__card.css);
+
+.places {
+	display: flex;
+	flex-direction: column;
+	padding-top: 106px;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.places {
+		padding-top: 64px;
+	}
+}

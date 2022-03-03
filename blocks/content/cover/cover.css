@@ -1,0 +1,7 @@
+@import url(./cover__link.css);
+@import url(./cover__text.css);
+@import url(./cover__background.css);
+
+.cover {
+	position: relative;
+}

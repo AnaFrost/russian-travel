@@ -1,9 +1,17 @@
 @import url(./footer__link.css);
 
+.footer__links .footer__link:not(:last-child) {
+	margin-right: 18px;
+}
+
 @media (max-width: 600px) {
 	.footer__links {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.footer__links .footer__link:not(:last-child) {
+		margin-right: 0;
 		margin-bottom: 32px;
 	}
 }
